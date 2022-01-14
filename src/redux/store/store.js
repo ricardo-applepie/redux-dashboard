@@ -1,7 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import dummydata from "../reducers/dummydata"
+import dummydata from '../reducers/dummydata';
+
 export default configureStore({
-    reducer: {
-        dummydata: dummydata
-    },
-})
+  reducer: {
+    dummydata: dummydata,
+  },
+});

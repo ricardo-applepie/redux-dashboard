@@ -1,14 +1,13 @@
-import React from "react";
+import React from 'react';
 
-function Button({children,primaryButtonColor,name}){
-
-    return(
-        <div>
-            <div>
-                <button className={primaryButtonColor}>{children} </button>
-            </div>
-        </div>
-    )
+function Button({ children, primaryButtonColor, name }) {
+  return (
+    <div>
+      <div>
+        <button className={primaryButtonColor}>{children} </button>
+      </div>
+    </div>
+  );
 }
 
-export default Button ;
+export default Button;
