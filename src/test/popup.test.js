@@ -6,10 +6,6 @@ import { render, unmountComponentAtNode } from "react-dom";
 
  // Just written basic test on variables for now , nothing much to test for now .
 
-
-
-
-
 let container = null;
 beforeEach(() => {
     // setup a DOM element as a render target
